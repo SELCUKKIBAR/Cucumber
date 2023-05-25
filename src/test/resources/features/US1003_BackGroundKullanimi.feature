@@ -1,21 +1,21 @@
-Feature: US1001_Cucumber Amazon Search Test
+Feature: US1003_Back_Ground_Kullanarak_Tekrarlardan_Kurtulur
 
-  Scenario:TC01 Amazon Nutella Testi
+  Background: Amazon anasayfaya gitme
     Given Kullanici amazon anasayfaya gider
+
+  Scenario:TC05 Amazon Nutella Testi
     When Nutella icin arama yapar
     Then Arama sonuclarinin Nutella icerdigini test eder
     And Sayfayı kapatir
 
 
-  Scenario:TC02 Amazon Java Testi
-    Given Kullanici amazon anasayfaya gider
+  Scenario:TC06 Amazon Java Testi
     When Java icin arama yapar
     Then Arama sonuclarinin Java icerdigini test eder
     And Sayfayı kapatir
 
 
-  Scenario:TC03 Amazon Samsung Testi
-    Given Kullanici amazon anasayfaya gider
+  Scenario:TC07 Amazon Samsung Testi
     When Samsung icin arama yapar
     Then Arama sonuclarinin Samsung icerdigini test eder
     And Sayfayı kapatir
